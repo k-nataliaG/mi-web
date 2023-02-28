@@ -43,3 +43,6 @@ p.font-especial {
          url('../fonts/cinzel-v19-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cinzel-v19-latin-700.svg#Cinzel') format('svg'); /* Legacy iOS */
   }
+  h3{
+    font-family: 'Tilt Warp', cursive; font-size: 400;
+  }
