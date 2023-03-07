@@ -22,9 +22,6 @@ span{
     font-family: 'waltograph';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/waltograph42.otf'); /* IE9 Compat Modes */
-         url('../fonts/waltographUI.ttf') format('embedded-opentype'), /* IE6-IE8 */
-
-}
-        
-    
+    src: url('../fonts/waltograph42.otf'),
+         url('../fonts/waltographUI.ttf');
+        }

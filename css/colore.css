@@ -1,0 +1,22 @@
+.box-colores{
+    display: flex;
+    flex-direction: row;
+}
+}
+div.a1 {
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: inline-block;
+}
+div.a2 {
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+div.a3 {
+    background-color: green;
+    width: 250px;
+    height: 250px;
+}

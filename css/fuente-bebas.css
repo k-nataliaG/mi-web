@@ -3,17 +3,17 @@
     padding: 0;
 }
 div {
-    background-color: rgb(15, 69, 148);
+    background-color: rgb(24,24,24);
     display: flex;
     justify-content: center;
     align-items: center;
     height:100vh
-
 }
+
 span{
-    font-family: "waltograph";
+    font-family: "Bebas Neue";
     font-size: 13em;
-    color: white;
+    color: rgb(230, 3, 3);
 }
 
 /* bebas-neue-regular - latin */
