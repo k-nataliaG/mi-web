@@ -1,34 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightpink;
+    color: white;
+}
 /* Elementos de clase */
 h1 {
     color: blueviolet;
-}
-p{
-    font-size: 1.5em;
-    font-style: oblique;
-    font-weight: 900;
+    font-size: 5em;
+    text-align: center;
 }
 
 h2 {
-    color: aqua;
-}
-h3 {
-    color: brown;
-}
-p {
-    font-size: 50px;
-}
-h1 {
+    color: rgb(159, 165, 165);
     text-align: center;
+    font-size: 3em;
 }
-p {
-    font-size: 50;
+
+h3 {
+    color: rgb(159, 165, 165);
+    font-family: 'Tilt Warp', cursive; 
+    text-align: center;
+    font-size: 3em;
 }
-p.font-verdana {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-p.font-especial {
-    font-family: 'Cinzel',sans-serif;
-}
+
+
 
 /* cinzel-700 - latin */
 @font-face {
@@ -42,7 +40,4 @@ p.font-especial {
          url('../fonts/cinzel-v19-latin-700.woff') format('woff'), /* Modern Browsers */
          url('../fonts/cinzel-v19-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/cinzel-v19-latin-700.svg#Cinzel') format('svg'); /* Legacy iOS */
-  }
-  h3{
-    font-family: 'Tilt Warp', cursive; font-size: 400;
   }
