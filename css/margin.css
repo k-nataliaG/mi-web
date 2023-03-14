@@ -1,6 +1,7 @@
 .box-style{
      width: 300px;
      height: 300px;
+     display: inline-block;
 }
 .box-1{
     
@@ -9,10 +10,10 @@
      border:  2px solid rgb(64,64, 64)
 }
 .box-2{
-
+      border:1px dotted violet;
 }
 .box-3{
-
+      border: 5px dashed blueviolet;
 }
 .box-4{
 
