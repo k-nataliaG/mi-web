@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formularios.css">
+</head>
+<body>
+  <h1>FORMULARIOS</h1>
+    <div class="mein-box">
+    <form>
+    <div class="title"><span class="txt-title">OFICINA VIRTUAL</span></div>
+    <div class="form-box">
+      <label class="iniciar-sesion"><b>Ingrese su nùmero de Documento</b></label>
+      <input type="text" name="">
+      <label><b>Ingrese el tipo de Documento</b></label>
+      <select name="Tipo de documento">
+       <option value="cc">Cèdula de Ciudadania</option> 
+       <option value="ti">Tarjeta de Identidad</option> 
+       <option value="rc">Registro Civil</option> 
+       <option value="ce">Cèdula de Extranjeria</option> 
+      </select>
+      <label><b>Seleccione los dias para visualizar los vuelos disponibles</b></label>
+      <input type="checkbox"name="fecha-cita"value="2023-04-19">Mièrcoles 19 de Abril de 2023<br>
+      <input type="checkbox"name="fecha-cita"value="2023-04-20">Jueves 20 de Abril de 2023<br>
+      <input type="checkbox"name="fecha-cita"value="2023-04-21">Viernes 21 de Abril de 2023<br>
+      <input type="checkbox"name="fecha-cita"value="2023-04-22">Sàbado 22 de Abril de 2023<br>
+      <label><b>Ingrese su Género</b></label>
+      <input type="radio"name="genero"value=masculino>Masculino<br>
+      <input type="radio"name="genero"value=femenino>Femenino<br>
+      <input type="radio"name="genero"value=otro>otro<br>
+      <label><b>Le gustaria realizar una peticion especial</b></label>
+      <textarea name="peticiones"id=""cols="30" rows="5"></textarea>
+      <input type="submit" value="Enviar">
+    </div>
+    </form>
+</body>
+</html>

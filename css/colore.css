@@ -1,0 +1,53 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+body {
+    background-color: blanchedalmond;
+}
+.box-colores {
+    display: flex;
+    flex-direction: row;
+
+}
+.box-color {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    color: white;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color-burlywood {
+    background-color: burlywood;
+}
+
+.color-hotpink {
+    background-color: hotpink;
+}
+.color-lightpink {
+    background-color: lightpink;
+}
+.color-63-194-194 {
+    background-color: rgb(64, 194, 194);
+}
+.color-13-87-144 {
+    background-color: rgb(13, 87, 144);
+}
+.color-1-21-27 {
+    background-color: rgb(1, 21, 27);
+}
+.color-987ccc {
+    background-color: #987ccc;
+}
+.color-654aef {
+    background-color: #654aef;
+}
+.color-600aef {
+    background-color: #600aef;
+}

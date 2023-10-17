@@ -1,0 +1,139 @@
+* {
+    border: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  header {
+    display: grid;
+    grid-template: "empty-left main-logo box-main-menu empty-right" 140px /
+                    140px      1fr       2fr           50px;
+  }
+  .main-logo {
+    grid-area: main-logo;
+  }
+  .img-logo {
+  padding-top: 40px;
+  }
+  .box-main-menu {
+  grid-area: box-main-menu;
+  }
+  .main-menu {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  }
+  .main-menu > li > a {
+  color: rgb(64, 64, 64, .9);
+  text-decoration: none;
+  display: block;
+  margin: 0 30px;
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  }
+  .main-circle {
+  background-color: rgb(2, 104, 64);
+  width: 1800px;
+  height: 1800px;
+  border-radius: 900px;
+  position: fixed;
+  top: 280px;
+  right: -950px;
+  z-index: 5;
+  }
+  .main-circle-green{
+    background-color: rgb(2, 104, 64);
+  }
+  .main-circle-rose{
+    background-color: rgb(213, 104, 136);
+  }
+  .main-circle-pink{
+    background-color: rgb(215, 81, 176);
+  }
+  h1 {
+  font-size: 5em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  }
+  .title-color {
+  color: rgb(2, 104, 64);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 1.3em;
+  }
+  .main-content {
+  margin-top: 140px;
+  display: grid;
+  grid-template: "empty-left product-text empty-center      product-img social-media" /
+                  140px      5fr          minmax(0, 300px)  4fr         80px;
+  }
+  .product-text {
+  grid-area: product-text;
+  }
+  .description-text {
+  margin-top: 30px;
+  color: rgb(96, 96, 93);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  }
+  .button-learn {
+  width: 200px;
+  margin-top: 30px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(2, 104, 64);
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  border: none;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  }
+  .product-img {
+  grid-area: product-img;
+  z-index: 10;
+  }
+  .social-media {
+  grid-area: social-media;
+  z-index: 10;
+  font-size: 2em;
+  color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: -100px;
+  }
+  footer {
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 40px;
+  z-index: 10;
+  }
+  .style-img-mini {
+  z-index: 20;
+  }
+  .fa-brands {
+  cursor: pointer;
+  }
+  
+  /* FONTS */
+  /* poppins-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }

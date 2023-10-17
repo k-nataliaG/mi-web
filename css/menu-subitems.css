@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, sans-serif;
+}
+nav ul{
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    position: absolute;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0 2.5em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+nav a:hover{
+    background-color: goldenrod;
+}
+
+nav > ul > li{
+    display: inline-block;
+    width: 250px;
+    line-height: 50px;
+}
+ul li{
+    position: relative;
+}
+
+nav li li{
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li{
+    visibility: visible;
+    max-height: 500px;
+    overflow: visible;
+    border: 1px solid rgb(255, 255, 255,);
+}
+nav ul ul ul{
+    left: 100%;
+    top: 0;
+}

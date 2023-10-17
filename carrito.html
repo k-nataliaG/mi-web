@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carrito.css">
+    <title>Carrito</title>
+</head>
+<body>
+    <div class="main-box">
+        <div class="box-subtotal">
+            <label class="subtotal">Subtotal<span id="subTotal"> cop </span> <span id="valorSubTotal">0</span> </label>
+        </div>
+        <div class="btn-pago-productos">
+            <label>Proceder al pago (<span id="cantProductos">0 Productos</span>)</label>
+        </div>
+        <div class="box-img-producto">
+            <img class="img-producto" src="img/libro.jpg" alt="">
+        </div>
+        <div class="info-producto">
+            <label class="texto-info-producto" >
+                The Road To React <br>
+                Your Journey to master plain yet pracmatic React.js
+            </label>
+            <label class="texto-info-producto" > Por: <span id="subTotal">Robin Wieruch</span> </label>
+            <label class="texto-info-producto" >  <span id="subTotal">Tapa blanda</span> </label>
+            <label class="texto-info-producto" > Precio: <span id="valorUnitarioProducto"></span> </label>
+        </div>
+        <div class="num-select">
+            <div class="num-restar" id="numRestar">-</div>
+            <div class="num-view" id="numView">0</div>
+            <div class="num-sumar" id="numSumar">+</div>
+        </div>
+    </div>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
